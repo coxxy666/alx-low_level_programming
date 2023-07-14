@@ -1,0 +1,3 @@
+ rning(4-puts.c:10): Incorrect use of kernel-doc format:  * print with puts
+4-puts.c:12: warning: No description found for return value of 'main'
+main
