@@ -1,8 +1,9 @@
 #include <stdio.h>
+
 /**
  * main - entry point
- * description:'prints alphabet in lowercase'
- * return: 0 always
+ * Description: Prints the alphabet in lowercase.
+ * Return: Always 0
  */
 int main(void)
 {
@@ -13,7 +14,7 @@ int main(void)
 		putchar(n);
 		n++;
 	}
-
 	putchar('\n');
 	return (0);
 }
+
