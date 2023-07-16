@@ -2,14 +2,14 @@
 #include <string.h>
 
 /**
- * mai - Entry point
- *
+ * main - Entry point
+ * Description: Write a C program that prints
  * Return: Always 1 (Success)
  */
 
-int main() 
+int main(void)
 {
-    char *message = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-    write(STDERR_FILENO, message, strlen(message));
-    return 1;
+	char *message = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	write(STDERR_FILENO, message, strlen(message));
+	return (1);
 }
