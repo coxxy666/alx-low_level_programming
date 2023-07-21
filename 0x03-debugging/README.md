@@ -1,1 +1,1 @@
-Multiple mains
+1-main.c
